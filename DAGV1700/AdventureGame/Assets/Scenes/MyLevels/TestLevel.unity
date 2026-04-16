@@ -5843,8 +5843,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.32, y: 0.32, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.35, y: 0.35, z: 0.2}
+  m_Center: {x: 0.05, y: 0.05, z: 0}
 --- !u!1 &736277635
 GameObject:
   m_ObjectHideFlags: 0
@@ -12750,7 +12750,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1761882944}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b58e542e4e133483ca34f3afb817f460, type: 3}
+  m_Script: {fileID: 11500000, guid: 049a5075ea4345689a6fbce32fc18017, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
@@ -13685,8 +13685,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.32, y: 0.32, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.35, y: 0.35, z: 0.2}
+  m_Center: {x: -0.05, y: 0.05, z: 0}
 --- !u!1 &2107213377
 GameObject:
   m_ObjectHideFlags: 0
@@ -14568,6 +14568,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5256713198682148088, guid: 91799037e67279d4da1778bf22f830b8, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5256713198682148088, guid: 91799037e67279d4da1778bf22f830b8, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6274396821154031753, guid: 91799037e67279d4da1778bf22f830b8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.00515
